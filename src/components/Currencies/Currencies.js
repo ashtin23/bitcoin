@@ -1,14 +1,15 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Currencies.css";
 import listOfCurrencies from "./list.json";
 
 class Currencies extends Component {
   render() {
     let list = listOfCurrencies.map(item => {
-      return (
+       return (
         <div className="currency" key={item.currency}>
           <p>
-            <a href={"/price/" + item.currency}>{item.currency}</a>:{" "}
+            <Link to={"/price/" + item.currency}>{item.currency}</Link>:{" "}
             {item.country}
           </p>
         </div>
