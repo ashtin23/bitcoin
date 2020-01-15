@@ -1,6 +1,6 @@
 # Bitcoin Tracker
 
-This is a single-page application created using ReactJS and React Router. It provides an interactive list of international currencies that can be clicked on to reveal the current value of bitcoin in the applicable currency. 
+This is a single-page application created using ReactJS and React Router during my time at General Assembly. It provides an interactive list of international currencies that can be clicked on to reveal the current value of bitcoin in the applicable currency. It uses react router and the [Coindesk API](https://www.coindesk.com/api/) to get realtime data of bitcoin pricing.
 
 ## Installation
 
